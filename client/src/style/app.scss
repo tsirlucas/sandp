@@ -1,0 +1,37 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap-reboot.css';
+
+html, body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.aligner {
+  display: flex;
+  flex: 1;  
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    margin-right: 15px;
+  }
+
+  button {
+    margin: 0;
+  }
+}
