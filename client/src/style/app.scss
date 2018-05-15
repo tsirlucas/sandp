@@ -19,7 +19,15 @@ html, body {
 
 .aligner {
   display: flex;
-  flex: 1;  
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .form {

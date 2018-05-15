@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 
-const sanitalize = (string) => string.replace(/[^a-zA-Z0-9]/g, '');
+const sanitalize = (string) => string.replace(/[.,\/?!;:\-_ ]/g, '');
 
 const reverse = (string) =>
   string
